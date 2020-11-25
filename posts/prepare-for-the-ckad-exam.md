@@ -65,7 +65,15 @@ This is related to the Kubernetes exam for [Certified Kubernetes Application Dev
 * [CKAD Exercises](https://github.com/dgkanatsios/CKAD-exercises)
 * [Practice Enough With These 150 Questions for the CKAD Exam](https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552)
 
+## Benchmarks
+
+[CKAD](https://raw.githubusercontent.com/nichelia/posts/main/assets/prepare-for-the-ckad-exam/CKAD_benchmarks.html)
+
 ## References
 
 * [How I passed the CKA (Certified Kubernetes Administrator) Exam](https://medium.com/platformer-blog/how-i-passed-the-cka-certified-kubernetes-administrator-exam-8943aa24d71d)
 * [Cloud Academy: Office Hours | Hands-on Tips to Pass the CKAD Exam](https://www.youtube.com/watch?v=L6K_8dOFR5w&t=1186s)
+* [ckad-prep-notes](https://github.com/twajr/ckad-prep-notes)
+
+---
+Cover photo: [@spathumpa](https://www.instagram.com/p/B16_56joHX3/?igshid=yc35apjmrj60)
