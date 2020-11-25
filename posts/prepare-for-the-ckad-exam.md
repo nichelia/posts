@@ -76,4 +76,4 @@ This is related to the Kubernetes exam for [Certified Kubernetes Application Dev
 * [ckad-prep-notes](https://github.com/twajr/ckad-prep-notes)
 
 ---
-Cover photo: [@spathumpa](https://www.instagram.com/p/B16_56joHX3/?igshid=yc35apjmrj60)
+Cover photo: [Pok Rie](https://www.pexels.com/photo/aerial-view-of-boat-pulling-big-shipment-platform-on-seawater-5281711/)
