@@ -1,4 +1,4 @@
-# How I created my personal blogging site
+# Developing my personal blog
 
 ## Background
 
