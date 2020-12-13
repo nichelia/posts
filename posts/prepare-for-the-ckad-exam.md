@@ -25,40 +25,81 @@ This is related to the Kubernetes exam for [Certified Kubernetes Application Dev
 
 ## Tips
 
-1. Attach autocomplete to the terminal's shell: `source <(kubectl completion bash)`.
+1. Attach autocomplete to the terminal's shell:
+    ```bash
+    source <(kubectl completion bash)
+    ```
 2. Make use of `tmux`. This will enable more screen estate within the one terminal window.
    Useful commands: 
     * `CTRL+b %` to split window vertically
     * `CTRL+b "` to split window horizontally
     * `CTRL+b arrows(up,down,left,right)` to move between panes
     * `CTRL+b x` to close plane
-3. Use the `kubetl <command> --help | more/grep` util of each command. This will show information of the command.
-4. Use the `kubectl explain <object>` util for objects.
+3. For information of a kubernetes command user:
+    ```bash
+    kubetl <command> --help | more/grep
+    ```
+4. For more explanation of kubernetes objects use:
+    ```bash
+    kubectl explain <object>
+    ```
+5. Use `alias` for common commands:
+    ```bash
+    alias k="kubectl"
+    complete -F __start_kubectl k
+    alias kcn="kubectl config set-context --current --namespace"
+    alias kga="kubectl get all"
+    ```
 
 ## Useful commands
 
-* Events: `kubectl get events`
-* Logs: `kubectl logs <pod_name> --follow`
-* Generate manifests: 
-    * `kubectl run --image=<image_name> <name> --dry-run=client -o yaml > <output>.pod.yaml`
-    * `kubectl create deployment <name> --image=<image_name> --dry-run=client -o yaml > <output>.deployment.yaml`
+* Events:
+    ```bash
+    kubectl get events
+    ```
+* Logs:
+    ```bash
+    kubectl logs <pod_name> --follow
+    ```
+* Generate manifests:
+    ```bash
+    kubectl run --image=<image_name> <name> --dry-run=client -o yaml > <output>.pod.yaml
+    ```
+    ```bash
+    kubectl create deployment <name> --image=<image_name> --dry-run=client -o yaml > <output>.deployment.yaml
+    ```
 * Copy/Paste manifests:
     ```bash
     cat << eof > file.yaml
     <content_here>
     eof
     ```
-* Edit manifests: `vim <file>.yaml`
+* Edit manifests:
+    ```bash
+    vim <file>.yaml
+    ```
 * Apply manifests: 
     ```bash
     cat << eof | kubectl apply -f -
     <content_here>
     eof
     ```
-* Edit using cli: `kubectl edit <resource> <name>`
-* Switch namespace in context: `kubectl config set-context --current --namespace=<namespace_name>`
-* Update resources: `kubectl set`, `kubectl rollout`
-* Executing in pod: `kubectl exec -it <pod_name> -- <cmd>`
+* Edit using cli:
+    ```bash
+    kubectl edit <resource> <name>
+    ```
+* Switch namespace in context:
+    ```bash
+    kubectl config set-context --current --namespace=<namespace_name>
+    ```
+* Update resources:
+    ```bash
+    kubectl set`, `kubectl rollout
+    ```
+* Executing in pod:
+    ```bash
+    kubectl exec -it <pod_name> -- <cmd>
+    ```
 
 ## Practice
 
