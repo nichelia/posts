@@ -37,4 +37,4 @@ Signal is a free and open source messaging app for iOS, Android, and desktop tha
 Docker Desktop is a tool that makes it easier to build, test, and run applications by packaging them into self-contained containers. In simpler terms, it allows developers to create a reproducible environment for their projects, ensuring that everything works reliably, regardless of the machine it's running on. In the context of our project, we use Docker Desktop to ensure that our implementation of ChatGPT is consistent across different devices and operating systems, making it easier to get up and running.
 
 ---
-Cover photo: [Dall-E generated image `A futuristic cyborg poster hanging in a neon lit subway station`](https://openai.com/product/dall-e-2)
+Cover photo: [Dall-E generated image \`A futuristic cyborg poster hanging in a neon lit subway station\`](https://openai.com/product/dall-e-2)
